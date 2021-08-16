@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.warning{background-color: rgba(94, 146, 215, 0.906); height: 40px; display: flex; align-items: center; 
+  font-family: Arial, Helvetica, sans-serif;;  
+  backdrop-filter: blur(5px);}
+.warning .emergencyicon{background-color: rgb(110, 136, 208); color: white; height: 40px; width: 65px;
+align-items: center; justify-content: center; padding-right: 22px; padding-left: 22px; padding-top: 8.77px;}
+.warning .warningicon {border: 2px solid white; display: flex; align-items: center; justify-content: center; border-radius: 10px;}
+.warning .warningicon p{padding-bottom: 1.2px;}
+.warning .para {color: white; font-weight: bolder; font-size: 14.5px; padding-left: 20px;}
+.warning .para a {color: white;text-decoration: none; position: relative; left: 0; transition: 0.2s;}
+.warning .para a:hover {color: white; text-decoration:underline;; left: 3px}
+
+.header{ background-color: rgb(0, 0, 0); height: 80px; display: flex; align-items: center; 
+    color: white; padding-left: 30px; padding-right: 50px; justify-content: space-between; }
+.header > .logo {font-size: 25px; font-weight: bolder;}
+.seperator {height: 3px;
+    background-image: linear-gradient(to right, rgb(45, 69, 225),#7491c8,rgb(45, 64, 152),rgb(86, 139, 142),rgb(58, 149, 201),rgb(37, 104, 211));
+  }
+.header .logo img {width: 90px; height: 80px; padding-top: 5px;}
+.header .left {display: flex; align-items: center;}
+.header .logo .logo2 {font-weight: bolder; font-family: Georgia, 'Times New Roman', Times, serif;}
+.header .covstat p {font-weight: bolder; font-family: Arial, Helvetica, sans-serif; font-size: 25px; margin-right: 130px;}
+
+.media {background-color: rgb(0, 0, 0); height: 80px; align-items: center; line-height: 80px;}
+.media a {text-decoration: none; color: rgb(255, 255, 255); font-size: 19px; padding-left: 10px; border-radius: 20%;}
+
+body{min-height: 100%;}
+
+body section .container{background-color: rgb(255, 255, 255);}
+section { padding-top: 30px; font-family: Arial, Helvetica, sans-serif; min-height: 60vh;}
+section .container{display: flex; flex-wrap: wrap; color: rgb(0, 0, 0); padding-left: 40px; }
+section .container .province {background-color: rgb(255, 255, 255); border-radius: 3px; ; width: 300px; margin: 15px; 
+  margin-right: 50px; padding: 20px;
+  -moz-box-shadow:    1px 2px 1px 1px rgba(225, 225, 225, 0.763);
+  -webkit-box-shadow: 1px 2px 1px 1px rgba(249, 248, 248, 0.722);
+  box-shadow:         1px 2px 1px 1px rgba(225, 225, 225, 0.505);
+  background-color: rgba(228, 227, 227, 0.15);  
+  backdrop-filter: blur(5px);}}
+section .cntainer .province p {padding-bottom: 50px;}
+section .container .onelinecontainer {display: flex; justify-content: space-between; padding-bottom: 8px;}
+section .container .onelinelabel {width: 200px;}
+section .container .province .provincedata {font-size: 20px; font-weight: bolder; padding-bottom: 15px;}
+
+
+.footer {min-height: 32vh; width: 100%; background-color: rgb(242, 242, 242); 
+  margin-top: 50px; display: flex; justify-content: space-between; padding-left: 120px; 
+  padding-right: 120px; font-family: Arial, Helvetica, sans-serif; padding-top: 50px; flex-wrap: wrap;}
+
+.footer .augov .gov {font-weight: bolder; font-size: 18px;}
+.footer .augov .resp {font-size: 12px; padding-top: 12px;}
+
+.footer .links a{text-decoration: none; color: black; font-size: 12px; font-weight: bold; }
+.footer .links a{padding-bottom: 5%; margin-bottom: 10px; line-height: 10px;}
+.footer .links a:hover {text-decoration: underline;}
+
+.footer .info p{font-size: 12px; padding-bottom: 10px;}
+.footer .info span {font-weight: bolder;}
+
+.footer .follow {font-weight: bolder; font-size: 14px;}
